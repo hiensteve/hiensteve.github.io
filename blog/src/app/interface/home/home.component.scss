@@ -1,0 +1,235 @@
+/* ::ng-deep header.material-header.material-header {
+    background-color: red; */
+  /* } */
+
+.sliderheader {
+    // background-image: url(https://unsplash.com/photos/8Lw0uYLWDpc/download?force=true&w=1920);
+    /* https://unsplash.com/photos/rB04YHuWeWQ/download?force=true&w=1920 */
+    /* https://www.angelo.edu/content/image/gid/94/width/1260/height/630/crop/1/38905_Faster_Than_Light.jpg */
+    background-image: url('~src/assets/images/imagination38.jpg');
+    margin: 0;
+    height:900px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
+  
+
+  }
+sliderheader-content {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: "Lucida Console",  monospace;
+    color:white
+  
+  }
+
+h1 {
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    font-weight: 600;
+    font-family: "Lucida Console", Courier, monospace ;
+    color: white
+}
+
+.mat-image-project {
+  background:url('~src/assets/images/cosmos7-1.gif');
+  height: 300px;
+  width:400px;
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+  position: relative;
+  top: 500px;
+  left: 750px;
+  border: 3px solid black;
+  // border-radius: 50%;
+
+  .sliderheader-content {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: "Lucida Console",  monospace;
+    color:white
+  
+  }
+}
+
+// .mat-image-2 {
+//   background:url('~src/assets/images/cosmos2.gif');
+//   height: 300px;
+//   width:500px;
+//   background-size: cover;
+//   background-position: center;
+//   opacity: .9;
+//   position: relative;
+//   top: 500px;
+//   left: 700px;
+//   border: 3px solid black;
+
+//   .silder-content {
+//     display: flex;
+//     justify-self: center;
+//     align-items: center;
+//     height: 100%;
+//     width: 100%;
+
+//   }
+// }
+
+.mat-image-earth {
+  background:url('~src/assets/images/earth4.gif');
+  height: 200px;
+  width:200px;
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+  position: relative;
+  margin:0;
+  top: -100px;
+  left: 750px;
+  border: 1px solid transparent black;
+  border-radius:50%;
+
+  .sliderheader-content {
+    display: flex;
+    justify-self: top;
+    align-items:top;
+    height: 100%;
+    width: 100%;
+    font-family: "Lucida Console",  monospace;
+    color:white
+  
+  }
+}
+
+.mat-image-blog {
+  background:url('~src/assets/images/giphy2.gif');
+  height: 200px;
+  width:300px;
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+  position: relative;
+  top:-50px;
+  left: 200px;
+  border: 3px solid black;
+  
+
+  .sliderheader-content {
+    display: flex;
+    position:absolute;
+    top: -10px;
+    justify-self: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    font-family: "Lucida Console",  monospace;
+    color:white
+  
+  }
+}
+
+.mat-image-blackhole {
+  background:url('~src/assets/images/blackhole7.gif');
+  height: 250px;
+  width:350px;
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+  position: relative;
+  top: -300px;
+  left: 1200px;
+  border: 1px solid transparent black;
+  border-radius: 50%;
+
+  .sliderheader-content {
+    display: flex;
+    position:absolute;
+    justify-self: top;
+    align-items: top;
+    height: 100%;
+    width: 100%;
+    font-family: "Lucida Console",  monospace;
+    color:white
+  
+  }
+}
+
+.mat-image-astronaut-aboutme{
+  background:url('~src/assets/images/spaceguy.gif');
+  height:150px;
+  width:100px;
+  background-size: cover;
+  background-position: center;
+  opacity: .9;
+  position: relative;
+  top: -800px;
+  left: 1100px;
+  border: 0.25px solid transparent black;
+  border-radius: 50%;
+
+  .sliderheader-content {
+    display:flex;
+    position:absolute;
+    top: -10px;
+    justify-self: top;
+    align-items: top;
+    height: 100%;
+    width: 100%;
+    font-family: "Lucida Console",  monospace;
+    color:white
+  
+  }
+}
+
+.footer-earthhorizon {
+  // background-image: url(https://unsplash.com/photos/8Lw0uYLWDpc/download?force=true&w=1920);
+  /* https://unsplash.com/photos/rB04YHuWeWQ/download?force=true&w=1920 */
+  /* https://www.angelo.edu/content/image/gid/94/width/1260/height/630/crop/1/38905_Faster_Than_Light.jpg */
+  background-image: url('~src/assets/images/earthhorizon.jpg');
+  margin: 0;
+  height:600px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.85;
+
+
+}
+
+// .mat-image-comet {
+//   background:url('~src/assets/images/comet.gif');
+//   height: 300px;
+//   width:500px;
+//   background-size: cover;
+//   background-position: center;
+//   opacity: .9;
+//   position: relative;
+//   top: 500px;
+//   left: 30px;
+//   border: 3px solid black;
+
+//   .silder-content {
+//     display: flex;
+//     justify-self: center;
+//     align-items: center;
+//     height: 100%;
+//     width: 100%;
+
+//   }
+// }
+.footer {
+  span {
+    margin: center;
+    font-size: 18px;
+    color: #fff;
+  }
+}
